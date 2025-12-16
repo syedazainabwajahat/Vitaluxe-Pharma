@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .fa-facebook-f:hover {
+      color: blue;
+    }
+
+    .fa-twitter:hover {
+      color: powderblue;
+    }
+
+    .fa-youtube:hover {
+      color: red;
+    }
+
+    .fa-instagram:hover {
+      color: purple;
+    }
+
+    .fa-pinterest-p:hover {
+      color: red;
+    }
+
+    .fa-linkedin-in:hover {
+      color: cadetblue;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: gold;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    .contact-info span {
+      font-weight: bold;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: gold;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkgreen;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #7a5ea6;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 15px;
+        padding: 15px;
+      }
+    }
+
+    /* ====== FOOTER BASE STYLE ====== */
+    footer {
+
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    footer div {
+      min-width: 200px;
+    }
+
+    footer h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    footer p,
+    footer i {
+      font-size: 27px;
+      margin-bottom: 8px;
+    }
+
+
+    /* ====== DESKTOP (Large screens) ====== */
+    @media (min-width: 992px) {
+      footer {
+        justify-content: space-between;
+        text-align: left;
+
+      }
+    }
+
+    /* ====== TABLET (768px - 991px) ====== */
+    @media (max-width: 991px) and (min-width: 768px) {
+      footer {
+        justify-content: space-between;
+        text-align: left;
+      }
+
+      footer div {
+        width: 45%;
+      }
+    }
+
+    /* ====== MOBILE (Below 768px) ====== */
+    @media (max-width: 767px) {
+      footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      footer div {
+        width: 100%;
+      }
+
+      footer h2 {
+        font-size: 20px;
+      }
+
+      footer p {
+        font-size: 15px;
+      }
+
+      footer i {
+        font-size: 26px;
+        margin: 6px;
+      }
+    }
+  </style>
+
+</head>
+
+<body style="background: url(./ASSESTS/IMAGES/body.png);">
+
+  <header class="sticky-top">
+
+    <!-- Navbar -->
+    <strong><strong><strong>
+          <nav class="navbar navbar-dark navbar-expand-lg fst-italic fs-4 sticky-top"
+            style="background-color:rgb(5, 73, 5);">
+            <div class="container-fluid">
+              <a class="navbar-brand fst-italic" href="#">
+                <h1><strong><strong>𝑽𝒊𝒕𝒂𝒍𝒖𝒙𝒆 𝑷𝒉𝒂𝒓𝒎𝒂</strong></strong></h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <center>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+
+
+                  </ul>
+              </center>
+              <form class="d-flex">
+                <input class="form-control me-2 border-dark fst-italic fs-3" type="search" placeholder="Search"
+                  aria-label="Search">
+                <button class="btn btn-outline-success text-light bg-success fst-italic fs-4 " type="submit">
+                  <strong><strong>Search</strong></strong></button>
+              </form>
+            </div>
+            </div>
+          </nav>
+        </strong></strong></strong>
+
+  </header>
+
+
+
+
+  <main>
+    <div class="container">
+      <h2 class="fst-italic fs-1">Contact Us</h2>
+      <p class="fst-italic fs-5">We’d love to hear from you! Whether you have a question, suggestion, or just want to
+        share your love for health & care, our team at <strong style="color:darkred;">𝑽𝒊𝒕𝒂𝒍𝒖𝒙𝒆
+          𝑷𝒉𝒂𝒓𝒎𝒂</strong> is here to help.</p>
+
+      <div class="contact-info fst-italic fs-5">
+        <p><span>Email:</span> support@healthcaredairies.com</p>
+        <p><span>Phone:</span>+03 111 121 976 </p>
+        <p><span>Address:</span> 1st Floor, Plot No. 1 Shaheed-e-Millat Road, Modern Society MCHS, Karachi, Sindh 75100,
+          Pakistan</p>
+      </div>
+      <br>
+
+
+      <h2 class="fst-italic fs-1">Send Us a Message</h2>
+      <form class="fs-4">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="w-100 fst-italic">Submit</button>
+      </form>
+    </div>
+
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.227705227827!2d-111.92654472617386!3d33.62533744015473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bad091f11034d%3A0x3b23ec3c9a5b8a07!2sVitaLuxe%20Medspa%20and%20Infusion!5e0!3m2!1sen!2s!4v1765524665413!5m2!1sen!2s"
+        width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+
+
+
+
+
+
+  <footer class="d-flex justify-content-between text-light" style="background-color: rgb(7, 47, 7)">
+
+
+    <div>
+      <h2 class="text-danger">Need Help?</h2>
+      <p>
+        📞+03 111 121 976</p>
+      <p>(Mon - Sat: 9:30am - 10:00pm | Sun: 11am - 8pm)</p>
+      <p>
+        📩eshop@healthcaredairies.com</p>
+    </div>
+
+
+    <div>
+      <h2 class="text-primary">Customer Service</h2>
+      <p>Contact Us</p>
+      <p>Delivery & Orders</p>
+      <p>Returns & Exchanges</p>
+      <p>Terms & Conditions</p>
+      <p>Privacy Policy</p>
+      <p>Track My Order</p>
+      <p>Payment Guide</p>
+      <p>Fabric Glossary</p>
+    </div>
+
+
+    <div>
+      <h2 class="text-warning">Company</h2>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Store Addresses</p>
+      <p>Corporate</p>
+    </div>
+
+
+    <div style=" font-size: 35px;">
+      <h2 class="text-success">Follow Us</h2>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
